@@ -1,6 +1,6 @@
-#1. File Structure
-    ## Một tệp PNG bao gồm Chữ kí tệp (File signature) theo sau đó là một chuỗi các Chunks.
-    ## Hình ảnh PNG hợp lệ phải chứa một đoạn IHDR, một hoặc nhiều đoạn IDAT và một đoạn IEND.
+#1. File Structure.
+    Một tệp PNG bao gồm Chữ kí tệp (File signature) theo sau đó là một chuỗi các Chunks.
+    Hình ảnh PNG hợp lệ phải chứa một đoạn IHDR, một hoặc nhiều đoạn IDAT và một đoạn IEND.
     
     ## 1.1. Chữ kí tệp (File signature)
         Tám byte đầu tiên của tệp PNG luôn luôn chứa những giá trị sau:
