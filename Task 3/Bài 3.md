@@ -24,7 +24,7 @@ Vậy mật khẩu là MANCHESTERUNITED
 Giải nén file Zip với mật khẩu MANCHESTERUNITED, ta được 3 file bookmarks.txt, dat2fish_stash.zip và README.txt.
 
 ##
-##
+
 ## Giải nén file Zip dat2fish_stash.zip
 ### Cách 1: Dùng bkcrack với plaintext có sẵn.
 Nhận thấy trong file dat2fish_stash.zip cũng có file bookmarks.txt nên ta sẽ lấy file này làm plaintext. Trong file này còn thiếu file Zip của plaintext nên ta sẽ nén Zip file bookmarks.txt mới có thể sử dụng bkcrack được. 
