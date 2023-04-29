@@ -1,9 +1,0 @@
-Giải chall dưới đây, thử giải bằng 2 cách sử dụng pkcrack hoặc bkcrack. Viết lại các bước làm kể cả cách đó không hoạt động.
-Gợi ý: File Zip đầu dùng John/Hash, file Zip sau dùng bkcrack/pkcrack.
-
-#### Cách 1
--		zip2john Task3.zip > Hash.txt
-
--		sudo john --wordlist=/usr/share/wordlist/rockyou.txt Hash.txt
-
-
