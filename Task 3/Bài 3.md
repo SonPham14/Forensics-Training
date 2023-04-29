@@ -23,3 +23,5 @@ Vậy mật khẩu là MANCHESTERUNITED
 
         hashcat -a 3 -m 17225 Hash.txt /usr/share/wordlist/rockyou.txt
         
+Giải nén file Zip với mật khẩu MANCHESTERUNITED, ta được 3 file bookmarks.txt, dat2fish_stash.zip và README.txt.
+Nhận thấy trong file dat2fish_stash.zip cũng có file bookmarks.txt nên ta sẽ lấy file này làm plaintext.
