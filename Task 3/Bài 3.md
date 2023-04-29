@@ -15,7 +15,7 @@ Gợi ý: File Zip đầu dùng John/Hash, file Zip sau dùng bkcrack/pkcrack.
 Vậy mật khẩu là MANCHESTERUNITED
 
 #### Cách 2: Dùng Hashcat
--   Bước đầu tương tự như John the Ripper, tuy nhiên cần sửa lại format của file Hash.txt theo đúng dạng sau đây: $pkzip$...$/pkzip$
+-   Bước đầu tương tự như John the Ripper, tuy nhiên cần sửa lại format của file Hash.txt theo đúng dạng sau đây: '$pkzip$...$/pkzip$'
 
 ![image](https://user-images.githubusercontent.com/103044792/235297502-3c1222c0-5606-40e0-9a46-fa6e4ce1979f.png)
 
