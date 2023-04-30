@@ -34,7 +34,7 @@ Nhận thấy trong file dat2fish_stash.zip cũng có file bookmarks.txt nên ta
 
 Vậy là đã crack xong.
 
-![image](https://user-images.githubusercontent.com/103044792/235333070-65b3a8ce-78d1-4ffa-ae91-d732dbee7420.png)
+![image](https://user-images.githubusercontent.com/103044792/235333125-f5a18387-7426-4a49-b412-f1dcfd35f264.png)
 
 *Ở cách này các bạn có thể sử dụng pkcrack với cú pháp tương tự, có điều chạy khá lâu. Máy mình chạy mất khoảng 1 tiếng trong khi bkcrack chỉ 2 phút mà thôi.
 
