@@ -38,3 +38,7 @@ So the cracking is done.
 
 **Note: In this method you can use `pkcrack` with the same syntax, but it takes a long time to run. My computer runs for about 1 hour while `bkcrack` only takes 2 minutes.
 
+### Method 2: Using `bkcrack` with unavailable plaintext.
+This part will crack the zip file without using available plaintext. That is, based on the files contained in the zip file to crack.
+
+I'll update this in the future if I can get it resolved.
