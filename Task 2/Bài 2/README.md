@@ -1,1 +1,1 @@
-Ở bài này chúng ta sẽ viết code đọc tất cả giá trị RGB của một bức ảnh bất kì trong máy ra một file txt sau đó lại viết code chuyển ngược lại từ RGB về ảnh gốc.
+In this article, we will write code to read all RGB values of any image on the computer and save them to a txt file. Then, we will write code to convert from RGB back to the original image.
