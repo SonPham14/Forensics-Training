@@ -1,1 +1,1 @@
-Tệp ảnh này đang bị lỗi không mở được. Hãy fix nó để có thể mở được.
+This image file is corrupted. Fix it so it can be opened.
