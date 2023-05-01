@@ -1,5 +1,5 @@
-Task này sẽ tìm hiểu về Cracking.
+This task will learn about cracking.
 
-Nhiệm vụ: Crack file Task3.zip, thử giải bằng 2 cách sử dụng pkcrack hoặc bkcrack. Viết lại các bước làm kể cả cách đó không hoạt động.
+Task: Crack the Task3.zip file using either pkcrack or bkcrack. Document the steps taken, even if it does not work.
 
-Gợi ý: File Zip đầu dùng John/Hash, file Zip sau dùng bkcrack/pkcrack.
+Hint: The first Zip file uses JohnTheRipper/Hashcat, while the second Zip file uses bkcrack/pkcrack.
