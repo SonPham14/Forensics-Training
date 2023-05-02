@@ -30,13 +30,17 @@ Noticing that the dat2fish_stash.zip file also contains the bookmarks.txt file, 
 
 -   Type the following command and wait for a few minutes:
 
-        ./bkcrack  -C dat2fish_stash.zip -c bookmarks.txt -P bookmarks.zip -p bookmarks.txt -d cracked.zip
+        ./bkcrack  -C dat2fish_stash.zip -c bookmarks.txt -P bookmarks.zip -p bookmarks.txt
 
-So the cracking is done.
+![image](https://user-images.githubusercontent.com/103044792/235562838-18fa9ed2-db71-470a-a8dc-63df5d2bb6b9.png)
 
-![image](https://user-images.githubusercontent.com/103044792/235333125-f5a18387-7426-4a49-b412-f1dcfd35f264.png)
+We get 3 keys `99075ea6 102ed4f6 fcaa1b2b`, use it to change password of protected-zip file:
 
-**Note: In this method you can use `pkcrack` with the same syntax, but it takes a long time to run. My computer runs for about 1 hour while `bkcrack` only takes 2 minutes.
+	./bkcrack -C dat2fish_stash.zip -k 99075ea6 102ed4f6 fcaa1b2b -U cracked.zip 123456
+
+Finish. Unzip that file with password `123456`
+
+**Note: In this method you can use `pkcrack` to solve this challenge.
 
 ### Method 2: Using `bkcrack` with unavailable plaintext.
 This part will crack the zip file without using available plaintext. That is, based on the files contained in the zip file to crack.
